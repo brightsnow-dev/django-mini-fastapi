@@ -1,6 +1,7 @@
 from django.test import TestCase
 
 
+
 class TestApiRouter(TestCase):
     def test_path_args(self):
         resp = self.client.get(

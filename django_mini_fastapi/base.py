@@ -1,5 +1,7 @@
 from json.encoder import JSONEncoder
-from typing import Any, Callable, Dict, Iterable, Optional, Type
+from typing import Any, Callable, Dict, Iterable, 
+
+Optional, Type
 from django.http import (
     HttpRequest as Request,
     HttpResponse as Response,
